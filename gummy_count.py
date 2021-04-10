@@ -1,3 +1,5 @@
+# algorithm for counting gummies of 2 different colours and 2 different shapes
+
 import argparse
 import json
 from pathlib import Path
