@@ -1,3 +1,4 @@
+# algorithm with implementation of additional filters incl. Kuwahara filter
 import cv2
 import time
 import numpy as np
