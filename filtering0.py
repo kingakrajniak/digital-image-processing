@@ -1,3 +1,5 @@
+# algorinthm with implementation of basic filters
+
 import cv2
 import numpy as np
 
@@ -43,7 +45,7 @@ def apply_kuwahara_filter(image):
 
             min_std = std1
             min_mean = mean1
-            if std2 < min_std:  # XD
+            if std2 < min_std:
                 min_std = std2
                 min_mean = mean2
             if std3 < min_std:
