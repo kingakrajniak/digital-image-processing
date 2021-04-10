@@ -1,3 +1,5 @@
+# algorithm for establishing parameters for detecting gummies of one colour
+
 import cv2
 
 
