@@ -1,3 +1,5 @@
+# algorithm for putting image of a pug in any given place on the art gallery picture (in place of other art preferably)
+
 import cv2
 import numpy as np
 
