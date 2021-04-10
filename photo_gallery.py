@@ -1,3 +1,4 @@
+# algorithm with implementation of a simple photo gallery
 import cv2
 import glob
 
