@@ -1,3 +1,5 @@
+# algorithm for flattening a road (or any selected area) from a picture
+
 import cv2
 import numpy as np
 
