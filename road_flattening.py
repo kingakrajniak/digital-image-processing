@@ -15,7 +15,7 @@ def main():
     clicked_points = []
 
     cv2.namedWindow('img')
-    cv2.setMouseCallback('img', handle_mouse_event, clicked_points)  # parametry przekazuje open cv
+    cv2.setMouseCallback('img', handle_mouse_event, clicked_points)
     # mowimy co wywolac, jezeli cos sie stanie z myszka
     # img trafia do funkcji jako param - nie musi byc zmienna globalna
 
@@ -29,12 +29,12 @@ def main():
             print(clicked_points)
             print(dst_points)
 
-            matrix = cv2.getPerspectiveTransform(np.float32(clicked_points), dst_points)  # przyjmuje tylko macierze numpy float32
+            matrix = cv2.getPerspectiveTransform(np.float32(clicked_points), dst_points) 
             result = cv2.warpPerspective(img, matrix, (500, 500))
             cv2.imshow('result', result)
 
         cv2.imshow('img', img)
-        cv2.waitKey(50)  # tutaj open cv uruchamia wewnetrzna petle i obsluguje eventy / callbacki
+        cv2.waitKey(50)
 
 
 main()
