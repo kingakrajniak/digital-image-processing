@@ -1,3 +1,5 @@
+#algorithm for circling round gummies
+
 import cv2
 import numpy as np
 
