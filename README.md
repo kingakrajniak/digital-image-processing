@@ -2,7 +2,7 @@
 Exemplary short Python scripts - image processing algorithms written in Image Analysis and Processing course.
 
 ## General info
-Algorithms showing playing with images - filtering, modification...
+A couple of algorithms showing working with images - filtering, modification, detection...
 
 ## Technologies
 - Python 3.7
