@@ -1,4 +1,4 @@
-# digita-image-processing
+# digital-image-processing
 Exemplary short Python scripts - image processing algorithms written in Image Analysis and Processing course.
 
 ## General info
